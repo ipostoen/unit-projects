@@ -1,0 +1,163 @@
+.page {
+	width: calc(100% - 285px);
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	left: -5px;
+}
+
+#am {
+	opacity: 1;
+}
+
+#main {
+	width: calc(100% - 285px);
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+
+	transition: .3s;
+
+}
+#about {
+	width: calc(100% - 285px);
+	display: none;
+	vertical-align: top;
+	position: relative;
+
+	transition: .3s;
+
+}
+#contacts {
+	width: calc(100% - 285px);
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	transition: .3s;
+}
+#support {
+	width: calc(100% - 285px);
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+
+	transition: .3s;
+
+}
+
+#user {
+	width: calc(100% - 285px);
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	left: -5px;
+	transition: .3s;
+}
+
+.products {
+	width: calc(100% - 285px);
+	vertical-align: top;
+	position: relative;
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.wrapProd {
+	margin: 25px;
+	background-color: white;
+	max-width: 350px;
+	width: 33.3333333333%;
+	height: 500px;
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.wrapProd .topImg {
+	width: 100%;
+	height: 150px;
+}
+.wrapProd img {
+	width: 100%;
+}
+
+.headTab {
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+}
+.headTab .prod {
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	align-items: center;
+}
+
+.content {
+	display: flex;
+}
+
+.content .prod, .amount {
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	margin: 10px;
+}
+.content .prod .name, .price, .cat, .img {
+	margin: 10px;
+	width: 150px;
+	color: white;
+}
+.head {
+	height: 200px;
+	width: 100%;
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+.head h1 {
+	color: white;
+}
+
+.content .prode h3 {
+	color: white;
+}
+.content .amount h3 {
+	color: white;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

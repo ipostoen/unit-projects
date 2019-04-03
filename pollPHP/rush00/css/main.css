@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+html {
+	font-size: 100%;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body {
+	font-family: "proxima-nova",sans-serif;
+	background: -webkit-linear-gradient(rgba(2,0,36,1) 0%, rgba(9,121,121,1) 94%);
+	background: -o-linear-gradient(rgba(2,0,36,1) 0%, rgba(9,121,121,1) 94%);
+	background: linear-gradient(rgba(2,0,36,1) 0%, rgba(9,121,121,1) 94%);
+	color: white;
+}
+body, button, input, select, textarea {
+	font-family: sans-serif;
+	color: #222;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+h3 {
+	margin: 10px;
+	color: white;
+}
+

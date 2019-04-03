@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Basic</title>
+		<style type="text/Css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			body {
+				background-color: pink;
+				margin: 0;
+				padding: 0;
+			}
+			/*==================================================== Header Css ====================================================*/
+			.header {
+				margin-top: 20px;
+				margin-bottom: 20px;
+				width: 100%;
+				height: 100%;
+				display: -webkit-inline-flex;
+				display: -moz-inline-flex;
+				display: -ms-inline-flex;
+				display: -o-inline-flex;
+				display: inline-flex;
+				justify-content: center;
+			}
+			.header .headerText h1 {
+				color: white;
+			}
+			/*==================================================== SectionWrap Css ====================================================*/
+			.sectionWrap {
+				margin-top: 20px;
+				margin-bottom: 20px;
+			}
+			
+			/*==================================================== Shop Css ====================================================*/
+			.shopWrap {
+				width: 100%;
+				height: 100%;
+				display: -webkit-inline-flex;
+				display: -moz-inline-flex;
+				display: -ms-inline-flex;
+				display: -o-inline-flex;
+				display: inline-flex;
+				justify-content: space-evenly;
+				flex-wrap: wrap;
+			}
+			.shopWrap .shop {
+				display: -webkit-inline-flex;
+				display: -moz-inline-flex;
+				display: -ms-inline-flex;
+				display: -o-inline-flex;
+				display: inline-flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				width: 300px;
+				height: 300px;
+			}
+
+			/*==================================================== Footer Css ====================================================*/
+			footer {
+				margin-top: 20px;
+				margin-bottom: 20px;
+				width: 100%;
+				height: 100%;
+				display: -webkit-inline-flex;
+				display: -moz-inline-flex;
+				display: -ms-inline-flex;
+				display: -o-inline-flex;
+				display: inline-flex;
+				flex-direction: column;
+				align-items: flex-end;
+			}
+			hr {
+				border: none;
+				color: black;
+				background-color: black;
+				height: 2px;
+				width: 100%;
+			}
+			footer .text {
+				width: 150px;
+				font-style: italic;
+				font-family: monospace;
+			}
+		</style>
+	</head>
+	<body>
+		<header class="header">
+			<div class="headerText">
+				<h1>Basics&trade;</h1>	
+			</div>
+		</header>
+		<section class="sectionWrap">
+			<div class="shopWrap">
+				<div class="shop">
+					<div class="img">
+						<a href="http://rozetka.com.ua"><img src="https://i1.rozetka.ua/logos/0/99.png" alt=""></a>
+					</div>
+					<div class="url">
+						<a href="http://rozetka.com.ua">Rozetka Url</a>
+					</div>
+				</div>
+				<div class="shop">
+					<div class="img">
+						<a href="http://ebay.com"><img src="data:image/png;base64,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" alt=""></a>
+					</div>
+					<div class="url">
+						<a href="http://ebay.com">EBay Url</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<hr>
+		<footer>
+			<div class="text">
+				<h3>&copy; ipostoen 2018&nbsp;</h3>
+			</div>
+		</footer>
+	</body>
+</html>

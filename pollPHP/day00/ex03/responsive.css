@@ -1,0 +1,106 @@
+body {
+	background-color: #333333;
+	font-family: "Times New Roman";
+	margin-left: 15%;
+	margin-right: 15%;
+}
+h1, h2, div {
+	color: white;
+	text-align: center;
+}
+h1 {
+	font-size: 2vw;
+}
+p {
+	margin: 3px;
+	font-size: 1vw;
+}
+p.mass {
+	text-align: right;
+}
+h2 {
+	font-size: 1.5vw;
+	margin: 5px;
+}
+table {
+	width: 100%
+	max-width: 1000px;
+}
+td {
+	width: 1%;
+	border: 2px solid;
+	border-radius: 10px;
+	border-color: rgba(0, 0, 0, 0);
+	color: white;
+}
+td.pink {
+	border-color: #f441d9;
+}
+td.pink:hover {
+	background-color: #f441d9;
+}
+td.fiolet {
+	border-color: #bb41f4;
+}
+td.fiolet:hover {
+	background-color: #bb41f4; 
+}
+td.red {
+	border-color: #DC282C;
+}
+td.red:hover {
+	background-color: #DC282C; 
+}
+td.orange {
+	border-color: #DDAE64;
+}
+td.orange:hover {
+	background-color: #DDAE64; 
+}
+td.voda {
+	border-color: #41f4ee;
+}
+td.voda:hover {
+	background-color: #41f4ee; 
+}
+td.blue {
+	border-color: #4161f4;
+}
+td.blue:hover {
+	background-color: #4161f4; 
+}
+td.yelow {
+	border-color: #e2d23f;
+}
+td.yelow:hover {
+	background-color: #e2d23f; 
+}
+td.salat {
+	border-color: #88f441;
+}
+td.salat:hover {
+	background-color: #88f441; 
+}
+td.pinkfiol {
+	border-color: #E15DE5;
+}
+td.pinkfiol:hover {
+	background-color: #E15DE5; 
+}
+td.pinkorange {
+	border-color: #EC69AE;
+}
+td.pinkorange:hover {
+	background-color: #EC69AE; 
+}
+@media screen and (max-width: 1000px) {
+	body {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+}
+@media screen and (max-width: 720px) {
+	body {
+		margin: 0;
+	}
+}

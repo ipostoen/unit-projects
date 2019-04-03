@@ -1,0 +1,143 @@
+.menu {
+	width: 280px;
+	height: 100%;
+	height: 100vh;
+	display: inline-block;
+	vertical-align: top;
+}
+.menu hr {
+	opacity: 0.2;
+	height: 2px;
+	width: 100px;
+	margin: 20px 30px;
+	background: #FFF;
+	border: none;
+	display: block;
+}
+
+.menu .fixedMenu {
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	width: 280px;
+	height: 100%;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+	background: rgb(2,0,36);
+	background: -webkit-linear-gradient(rgba(2,0,36,1) 0%, rgba(9,121,121,1) 94%);
+	background: -o-linear-gradient(rgba(2,0,36,1) 0%, rgba(9,121,121,1) 94%);
+	background: linear-gradient(rgba(2,0,36,1) 0%, rgba(9,121,121,1) 94%);
+}
+.menu .fixedMenu .logo {
+	width: 280px;
+	height: 150px;
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.menu .fixedMenu .logo a {
+	color: white;
+}
+.menu .fixedMenu .logo a img {
+	-webkit-filter: opacity(0.6) drop-shadow(0 0 0 white);
+	filter: opacity(0.6) drop-shadow(0 0 0 white);
+}
+
+
+.cart {
+	padding: 0;
+	margin: 20px;
+}
+.cart li {
+	list-style: none;
+	display: inline-block;
+}
+.cart li a {
+	padding: 0 10px;
+	color: white;
+	font-size: 20px;
+	display: inline-block;
+	opacity: 0.6;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-transition: opacity 0.2s linear;
+	transition: opacity 0.2s linear;
+}
+
+
+.shopList {
+	margin: 0;
+	padding: 0;
+	width: 280px;
+}
+.shopList li {
+	list-style: none;
+	display: block;
+}
+.shopList li a {
+	color: #FFF;
+	display: block;
+	text-transform: uppercase;
+	font-family: "proxima-nova",sans-serif;
+	font-weight: bold;
+	padding: 4px 30px;
+	font-size: 20px;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+}
+
+
+.menuList {
+	margin: 0;
+	padding: 0;
+	width: 280px;
+}
+.menuList li {
+	list-style: none;
+	display: block;
+}
+.menuList li a {
+	display: block;
+	color: #FFF;
+	padding: 6px 30px;
+	font-size: 14px;
+	line-height: 13px;
+	text-transform: none;
+	font-family: "proxima-nova",sans-serif;
+	font-weight: bold;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+	opacity: 0.6;
+	font-weight: normal;
+	-webkit-backface-visibility: hidden;
+}
+
+
+.socialIcons {
+	padding: 0;
+	margin: 20px 20px 0 20px;
+}
+.socialIcons li {
+	list-style: none;
+	display: inline-block;
+}
+.socialIcons li a {
+	padding: 0 10px;
+	color: white;
+	font-size: 20px;
+	display: inline-block;
+	opacity: 0.6;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-transition: opacity 0.2s linear;
+	transition: opacity 0.2s linear;
+}
